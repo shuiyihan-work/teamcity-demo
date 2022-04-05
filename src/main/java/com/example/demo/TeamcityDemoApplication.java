@@ -19,4 +19,8 @@ public class TeamcityDemoApplication {
         return "hello world !!!";
     }
 
+    @RequestMapping("/test")
+    public String test(){
+        return "Test !!!";
+    }
 }
